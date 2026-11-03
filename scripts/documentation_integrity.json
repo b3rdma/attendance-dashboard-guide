@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "purpose": "Reviewed M/DAX code blocks and distributed images; no historical Git objects or private files are required.",
+  "refresh_command": "python3 scripts/check_attendance_docs.py --update-integrity",
+  "code_blocks": {
+    "dashboard_measures/attendance_rebuild_measures.md": [
+      {
+        "language": "dax",
+        "sha256": "aa64946007c8887a3c728c23c9c039e3cb5a3dfac5f3daa014e9d88ab9988497"
+      },
+      {
+        "language": "dax",
+        "sha256": "ee4003ba4f41c4e6af083217fcc36aa8a08ad2e21c951755864a9dd40c6dee45"
+      },
+      {
+        "language": "dax",
+        "sha256": "f0f86b37d8ea5855278ff6c77d68939c76b4a3fa9c25071e87173b9e6101f140"
+      },
+      {
+        "language": "dax",
+        "sha256": "9b635757e6457145e52e837bf365c4c5d96780a0bb375c3acaec0a58cc9b49cc"
+      },
+      {
+        "language": "dax",
+        "sha256": "3dd8648a0367f0aef947f0b31072c86042516e453e0e5fd684066d560d609e54"
+      },
+      {
+        "language": "dax",
+        "sha256": "4cc8a29c3acea6fd93200f89e2e3a317b36bb326603f8c415d835f9fcbc8a2dc"
+      },
+      {
+        "language": "dax",
+        "sha256": "0292af291b6c5653033fc5bbd7e754b55f48a18b1ed3662dc2bbaf83a11da946"
+      },
+      {
+        "language": "dax",
+        "sha256": "24b6c0a98341daa4cf055011cec33f2ec9780e6ee536a5e87c3530342ba58c58"
+      },
+      {
+        "language": "dax",
+        "sha256": "0381f8f522cfd0313b7a68a5f49c7b993c17c7f4b93ede84e7eb29f63d686f7f"
+      },
+      {
+        "language": "dax",
+        "sha256": "dd3a6b0e22f236ea476e5fbc0c2c2c039a1be4bbc1ab72947627603954dce8a2"
+      },
+      {
+        "language": "dax",
+        "sha256": "3b499044a535977f5608e421677985e8a9fa3b2d6ab0f5c9ff69423d52672813"
+      },
+      {
+        "language": "dax",
+        "sha256": "1d7f405dbd95101139198349c554bb9c0b14e1a250e3707cfc68d0f12658f578"
+      },
+      {
+        "language": "dax",
+        "sha256": "d8e9543dfd7df6880d85d27e9f01321dfb00a9195c8a776c7c5b247dca87ddbc"
+      },
+      {
+        "language": "dax",
+        "sha256": "ccef875a29c75d92734939b03286b285dee80d4e450d985c3088eb5f3195d52f"
+      },
+      {
+        "language": "dax",
+        "sha256": "1880e575e63d8beba97c176934d57bd6297eb973ab0f92b2095d565f7792c353"
+      },
+      {
+        "language": "dax",
+        "sha256": "526a2f558e0296c7d12d0eeb2aa71f32df0837d94a83a51610fd8d315206c803"
+      },
+      {
+        "language": "dax",
+        "sha256": "ca024c716395134a292e6ef78eda7c862f24541e71e1c23784ec124d3b6675f7"
+      },
+      {
+        "language": "dax",
+        "sha256": "8e99b1fa8cb7c8da33321c85680119f731cd1c852a03b306057c2c20d1f5cc16"
+      },
+      {
+        "language": "dax",
+        "sha256": "746ae765cb1645115fac584048cff493fb626ac326f06174f50c08543ef2babf"
+      },
+      {
+        "language": "dax",
+        "sha256": "1e77ceefcd169696763939cf680890047be3c2196732f7ef2202b72fd362c579"
+      },
+      {
+        "language": "dax",
+        "sha256": "1dc973eea79d06fad007bb05aa56338937d465e1019521822e3be5179fb01638"
+      }
+    ],
+    "dashboard_parameters/attendance_parameter_folder.md": [
+      {
+        "language": "powerquery",
+        "sha256": "d9a3c976288980f674cbd9c5b9567875dd1af8116669a423fbce3db9e4a8a17e"
+      }
+    ],
+    "dashboard_parameters/attendance_parameter_site.md": [
+      {
+        "language": "powerquery",
+        "sha256": "8c04d2e8df47d5549d8ddf6a32136cbf20201f0ce5a911c14e9152072cfd940c"
+      }
+    ],
+    "dashboard_queries/attendance_query_files.md": [
+      {
+        "language": "powerquery",
+        "sha256": "8fb86d8dc98ebefbae10f2706f88dd894e4fa54cbb127805d9b85f4fde651f2e"
+      }
+    ],
+    "dashboard_queries/attendance_query_people.md": [
+      {
+        "language": "powerquery",
+        "sha256": "0ffc70176944e57b88a61f59c258e00a40684402d6797c4fdf8ba7eb74df0d52"
+      }
+    ],
+    "dashboard_queries/attendance_query_records.md": [
+      {
+        "language": "powerquery",
+        "sha256": "3b24f390763096897f47028d00a60d87a57799b4403c79bdd55d4cf8812b5dde"
+      }
+    ],
+    "dashboard_queries/attendance_query_sessions.md": [
+      {
+        "language": "powerquery",
+        "sha256": "ef2159b8ff88bf001b9807a6423212e690939ad427063da2a8d3524bb8f224d6"
+      }
+    ],
+    "dashboard_report_pages/attendance_session_explorer.md": [
+      {
+        "language": "dax",
+        "sha256": "634e4edc8e9617b1993ec946b3ab06d15a159a01fbcc0ec2db2e674d41aa0667"
+      },
+      {
+        "language": "dax",
+        "sha256": "46b3992c5a5cae880a7fc9851fe7d99ace69f88050c527a9ab560c73f67278b3"
+      },
+      {
+        "language": "dax",
+        "sha256": "2a7c3f7f83745731b7bc56f35ff29b3ee465438536892663adc82ad62ed2c09e"
+      },
+      {
+        "language": "dax",
+        "sha256": "4a699f1514b30460e0c11b526e99024fa50d0fc455fe2b2e98d9ea6933806629"
+      },
+      {
+        "language": "dax",
+        "sha256": "f3c198c69e09545f1cb8d70c020d8ad41776bdd132e29438a81932e0b23da379"
+      }
+    ],
+    "guide/attendance_engagement_typing.md": [
+      {
+        "language": "powerquery",
+        "sha256": "5a845602835b81a6867211bc8e14d8ac5c7a3e596649c2c813d62fceddd33dca"
+      }
+    ],
+    "review/attendance_dax_validation.md": [
+      {
+        "language": "dax",
+        "sha256": "5ad6d246f66a1675bba0688139ab1d95f2786dfaa8e3a930f9ab3fc9d5912183"
+      }
+    ],
+    "survey/survey_measures.md": [
+      {
+        "language": "dax",
+        "sha256": "0d8f215336d77b1e860f88831b2f568df576873cd64cd3b488077c2d01e9b5c9"
+      },
+      {
+        "language": "dax",
+        "sha256": "32d9ac4a4ca0ec933bf242b7a2e6dc17937500360a71c3f7f8741a36ecd0d991"
+      },
+      {
+        "language": "dax",
+        "sha256": "1c5603857c77ffc43fe6eee3cdabe6fc20b012c959dda30b5b4bec755800a47e"
+      },
+      {
+        "language": "dax",
+        "sha256": "c9767867ae3d82b9b31e382aeb59bc9e86c3bacdcc875352e928a385a9192b3a"
+      },
+      {
+        "language": "dax",
+        "sha256": "8b04e0e4a1868f9d19b02c2d376bee4c7e57b6057441eb7328e39a5c7319b80a"
+      },
+      {
+        "language": "dax",
+        "sha256": "475c409e234ec66d67496aca81a67039a6383a8154bcb5284ab43b55f8311430"
+      },
+      {
+        "language": "dax",
+        "sha256": "5500c2814016f9dd86e4a1d30fa6c32ed214fab513102d0d4169975bc8a4afeb"
+      },
+      {
+        "language": "dax",
+        "sha256": "ab35141644ed6330024f85f67bd2baea235d10bd979132ec95aea20f28b73de3"
+      },
+      {
+        "language": "dax",
+        "sha256": "15ee2cc0c6fe625c51a4f423616f2b3b7a3c4e9313d92e86b39d95f5695a9894"
+      },
+      {
+        "language": "dax",
+        "sha256": "32c2cdf6b1068bedd542765e30e46782ca16a254cffd9017abae7a171ca1dcd9"
+      },
+      {
+        "language": "dax",
+        "sha256": "f9f01adb3453d574369006c8b5fef95b5560f1299f77cee8f6a7362f6228c9d5"
+      },
+      {
+        "language": "dax",
+        "sha256": "70c628db937d83bd3488d878ff36003d2139672e8ce6e66366e50bb1e31a3aa0"
+      },
+      {
+        "language": "dax",
+        "sha256": "d0026ca3e8d43549978090f127ab7348169d3dfaa9455b9b80fe1bdc814d5bca"
+      },
+      {
+        "language": "dax",
+        "sha256": "9b731496468f804f22735390ef59a224a8ebb71819963a9225a901337d1d4d27"
+      },
+      {
+        "language": "dax",
+        "sha256": "2a12afaaa965da8bd90f7d5671bbdd313d738026e2d35ac635c29c942810aebe"
+      },
+      {
+        "language": "dax",
+        "sha256": "eaffffdb948789c266006781e906b937785d9ec84790f8324e1dbb79ebe28b82"
+      },
+      {
+        "language": "dax",
+        "sha256": "33ae969b4a9547e77d36d2870b967d3dcaeeeed951b97ec65c5c20d858c267ea"
+      },
+      {
+        "language": "dax",
+        "sha256": "aa67d3338564cd1a8e75a945d026d9dba70e9fd38fafcedc9c7d909b4ee965f3"
+      },
+      {
+        "language": "dax",
+        "sha256": "4ba8c9c5246ae45e3425ecdb416bf9e64fdeecd5536a068c4c55bcfb0b951a4b"
+      },
+      {
+        "language": "dax",
+        "sha256": "60c71040504a5c064c7cda2f84794446c1cbc9c023d1ca01b27c2f69584b1733"
+      },
+      {
+        "language": "dax",
+        "sha256": "9face95b3d53f48e62efe841eada3093cc0c8829be7c784c9e888a2fcff9ba56"
+      },
+      {
+        "language": "dax",
+        "sha256": "25c9b7a57c9206a9e6c834673f2a2f21c6d21fc11f8981f7f84c3449c819133d"
+      },
+      {
+        "language": "dax",
+        "sha256": "195c63b928d79dd4941175bfcfae2a3a1238edb177561ae4725b887ec683e8d4"
+      },
+      {
+        "language": "dax",
+        "sha256": "5de5eb8dfb5c8bcd937e1bf53abe7374c74f5b27aa55e41949e366aa24947a38"
+      },
+      {
+        "language": "dax",
+        "sha256": "ffe38fb5dbd5548729556cac2eff09db09e19b3f9e37e8ba7a184ba332dcbdb6"
+      },
+      {
+        "language": "dax",
+        "sha256": "a9f9a93aa399713025d43741c424a142c956d2fe4ef11909108a50aeed7a38d2"
+      },
+      {
+        "language": "dax",
+        "sha256": "62ad4b0f91c937c1691b8de830ad94a6de61b835ce6f3404a23a38bbbccddb85"
+      },
+      {
+        "language": "dax",
+        "sha256": "8644f301dc7f0d77eb47433b1de470f0f833462c375a242f58d6419a2fbec62c"
+      },
+      {
+        "language": "dax",
+        "sha256": "c8b3ea6f4da1f405aacee5b39cd14e75195c02fb1e09c18495b9393234f4ee1f"
+      },
+      {
+        "language": "dax",
+        "sha256": "fc58388cdd4b9ae854ccdb9f33b17b9130dcd065ba47fca74b647ac23443513b"
+      },
+      {
+        "language": "dax",
+        "sha256": "aaff3ad4b833c5b4d4d9a7f40c360445002f43c59cfd540144ac36d904ebf96d"
+      }
+    ],
+    "survey/survey_queries.md": [
+      {
+        "language": "powerquery",
+        "sha256": "390f5ac5033af6e18fb1d985d6daea92aca84267227be9901a59c395334bd85f"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "c681470bdd2e5ec3e5a98a97dc4fbbd05bb2461c655f7fa179124d4917c8ab6e"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "b67ee6be2e73c2c60b4830e6e9ca485a2545c8351593f585072573628895b163"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "5b41c10cd34d725c71aa9f40f0efdab2a8c56a3fb31632718eb8453c762bfc22"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "bd57b880eee7368a85e77738aed0f5801645787f917f013bf713e96e08eb22a5"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "af1c3b77a1f1e7789a715c4dd1e485154a4256bbfc231772a90b60f55dd8641c"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "34458ecd8435d5977eb9d6f4c855c956d9a08360b91cde042d27814c198f9bd5"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "0046e6d9b6de8369db63ae15c51051824a033ddd34696d5b171ea6ca8dcfbb97"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "d93dd4512bfb8e2e2cc15d1f1969eef1b7ba6482b9c10db402a2b41e2382909e"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "54cc12f7a7688a57a7b60a53ca1f7fbc8f832dee014933ac9df6d929d2183a81"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "0e3aad97d0a29136d28ab6d3764362af256e9bd96138d647ba156ce3e473b4cf"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "b3ef5814a67e8f99c777d31049e7a1f958e93bf97e480bbbc2eb480a630c4d26"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "2294de0a4e4be6794ff7ae2e182996dda22447b9de484f07fe6813fff9d0d63c"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "6d9e59fe90a9bc36d22434788714b7f55bda508ff56cf18adf1d19f84a43e707"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "604ac02592901ce8bb2a8b041c84008ee24266e95124db79a233cbcda63eac52"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "bde96e1fb493692bbb1da8cb148a6c499b1fadf4cfb1a1cb42463d667f570b42"
+      },
+      {
+        "language": "powerquery",
+        "sha256": "87f2da216096db0f7d721ae76840b2a87c924be2f69e5a2c8fd3a543625b3b53"
+      }
+    ],
+    "survey/survey_wave_comparisons.md": [
+      {
+        "language": "dax",
+        "sha256": "b40a8d105cb251fb066ed508651830b604f79a7dd89409600b700548ff5e644e"
+      },
+      {
+        "language": "dax",
+        "sha256": "dd091c54264110d867d14fcb6ba14dbae2259652ab8466beadfdf8d359c126d3"
+      },
+      {
+        "language": "dax",
+        "sha256": "712c9c03e8829968ceae9902591528fabdcff722f1a9a4f10dc43cc8c50d8e85"
+      },
+      {
+        "language": "dax",
+        "sha256": "02d9088f5c48087f91766a895a2bae7807fbd761d72cf9c98c9b900e65137879"
+      },
+      {
+        "language": "dax",
+        "sha256": "385fdb88aada52e640a89d10b0905745426767571645f83964112973d2c580ad"
+      },
+      {
+        "language": "dax",
+        "sha256": "94daa408e1705ec5ba99f386e81ba76f867efc1186253432483e255aa07362ac"
+      },
+      {
+        "language": "dax",
+        "sha256": "24a1f3976bad43d5acc6fc9c2bee599e711c38e8f50ec3068d19837a9dfdb10a"
+      }
+    ],
+    "survey/survey_wave_prototype.md": [
+      {
+        "language": "powerquery",
+        "sha256": "86e8d9103476157d60707809a78a78e1b14aaa5b3387789fb6b4b858280643af"
+      }
+    ]
+  },
+  "images": {}
+}

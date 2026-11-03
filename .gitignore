@@ -1,0 +1,27 @@
+.env
+.env.*
+*.log
+*.pdf
+AGENTS.md
+
+# macOS
+.DS_Store
+
+# Obsidian machine-specific files
+.obsidian/
+
+# Local originals, exports and generated delivery files are not publication inputs.
+.local-only/
+guide_theme/
+handover/
+*.pbix
+*.pbit
+*.xlsx
+*.xlsm
+*.xlsb
+*.xls
+*.csv
+*.docx
+*.zip
+__pycache__/
+*.pyc

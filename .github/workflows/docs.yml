@@ -1,0 +1,28 @@
+name: Documentation checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-guide:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Check links, Markdown and reviewed code
+        run: python scripts/check_attendance_docs.py
+      - name: Check the documentation checker
+        run: python -m unittest discover -s scripts -p 'test_*.py'
+      - name: Generate self-contained attendance DAX fixtures
+        run: python scripts/build_attendance_dax_fixture.py
+      - name: Generate self-contained survey fixtures
+        run: python scripts/build_survey_tests.py
+      - name: Generate proposed survey-wave fixtures
+        run: python scripts/build_survey_wave_tests.py
